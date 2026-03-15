@@ -11,10 +11,10 @@
     />
     <meta name="generator" content="Astro v5.13.2" />
     <title>Signin Template · Bootstrap v5.3</title>
-    <link
+    <!-- <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/sign-in/"
-    />
+    /> -->
     <script src="assets/js/color-modes.js"></script>
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
     <meta name="theme-color" content="#712cf9" />
@@ -127,11 +127,11 @@
           height="57"
         />
         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-        <?php if (!empty($_SESSION['error'])): ?>
+        <?php if (!empty($_SESSION['error'])){ ?>
           <div class="alert alert-danger">
               <?php echo $_SESSION['error']; ?>
           </div>
-        <?php endif; ?>
+        <?php } ?>
         <div class="form-floating mb-2">
           <input
             name="email"
