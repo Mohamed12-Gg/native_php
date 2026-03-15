@@ -10,16 +10,13 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Astro v5.13.2" />
-    <title>Register · Bootstrap v5.3</title>
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.3/examples/sign-in/"
-    />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/"/>
     <script src="assets/js/color-modes.js"></script>
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <meta name="theme-color" content="#712cf9" />
-    <link href="assets/sign-in.css" rel="stylesheet" />
+    <link href="assets/sign-in.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/registar.css">
+    <title>Register</title>
   </head>
   <body class="d-flex align-items-center py-4 bg-body-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -217,7 +214,7 @@
         <button class="btn btn-primary w-100 py-2" type="submit">
           Sign up
         </button>
-        already have account <a href="login.php">login</a>
+        Already have account <a href="login.php">login</a>
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2025</p>
       </form>
     </main>

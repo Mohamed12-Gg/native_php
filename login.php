@@ -121,8 +121,8 @@
       <form action="handle_login.php" method="post">
         <img
           class="mb-4"
-          src="assets/brand/bootstrap-logo.svg"
-          alt=""
+          src="#"
+          alt="Logo"
           width="72"
           height="57"
         />
